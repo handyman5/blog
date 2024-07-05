@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
     - name: Check out
