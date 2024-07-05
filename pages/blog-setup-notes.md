@@ -15,12 +15,12 @@ This page details the things I had to do to set up this blog.
 
 References:
 
-- https://getnikola.com/handbook.html
-- 
+* [https://getnikola.com/handbook.html]
+* [https://getnikola.com/getting-started.html]
 
 ## Automated Build
 
 Using the [`nikola-action` Github Action](https://github.com/getnikola/nikola-action). Notably, I had to reference `v8` even though the README says `v4`.
 
-Source: [main.yml](.github/workflows/main.yml)
+Source: [main.yml](../../.github/workflows/main.yml)
 
