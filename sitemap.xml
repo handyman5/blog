@@ -7,34 +7,34 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://example.com/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/2024/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/galleries/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/pages/blog-setup-notes/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/second-new-post-testing-the-github-action/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/testing-out-the-new-blog/</loc>
-  <lastmod>2024-07-05T23:33:00Z</lastmod>
+  <lastmod>2024-07-05T23:35:00Z</lastmod>
  </url>
 </urlset>
