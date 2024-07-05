@@ -17,7 +17,10 @@ jobs:
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
+    - run: pwd && ls -la
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
+      with:
+        path: "output"
     - name: Publish Site
       uses: actions/deploy-pages@v4
