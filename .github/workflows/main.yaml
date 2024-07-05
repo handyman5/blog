@@ -3,6 +3,8 @@ on: [push]
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
     - name: Check out
