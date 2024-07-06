@@ -3,6 +3,7 @@ on: [push]
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
+    #container: ghcr.io/handyman5/blog@sha256:167b597df57d3231749c1677cdff2b9e552f68003732893ede98f9709aa26ec9
     permissions:
       contents: write
       id-token: write
