@@ -155,7 +155,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'fa fa-folder-open'),
         ('/categories/index.html', 'Tags', 'fa fa-tags'),
         ('/rss.xml', 'RSS', 'fa fa-rss'),
-        ('https://getnikola.com', 'About me', 'fa fa-user'),
+        ('https://linkedin.com/in/comptona', 'My LinkedIn', 'fa fa-linkedin-in'),
         ('https://bsky.app/profile/comptona.bsky.social', 'My Bluesky', 'fab fa-bluesky'),
         ('https://github.com/handyman5', 'My Github', 'fab fa-github'),
     )
@@ -176,7 +176,8 @@ THEME = "kiss"
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
 # as an accent color (the default ones don’t). Must be a HEX value.
-THEME_COLOR = '#5670d4'
+#THEME_COLOR = '#5670d4'
+THEME_COLOR = '#6aa84f'
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Samples for bootblog4 (enabled) and bootstrap4 (commented) follow.
@@ -1365,7 +1366,7 @@ SEARCH_FORM = """
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
