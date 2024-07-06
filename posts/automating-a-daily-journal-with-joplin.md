@@ -9,6 +9,8 @@
 .. type: text
 -->
 
+![image](/images/1_5qpcOrSwad1u-jE5Ls8Fsg.webp)
+
 I have a long-standing interest in [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM). I’ve tried lots and lots of different tools, and I recently learned about [Joplin](https://joplinapp.org/) and decided to try it out.
 
 <!-- TEASER_END -->
