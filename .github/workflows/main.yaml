@@ -11,16 +11,17 @@ jobs:
     steps:
     - name: Check out
       uses: actions/checkout@v4
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        #cache: 'pip'
+    # - name: Setup Python
+    #   uses: actions/setup-python@v5
+    #   with:
+    #     python-version: '3.11'
+    #     cache: 'pip'
+    # - name: Install Nikola
+    #   run: pip install "Nikola[extras]"
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
-    - run: pwd && ls -la
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
       with:
