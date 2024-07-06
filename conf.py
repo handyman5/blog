@@ -140,13 +140,25 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+# NAVIGATION_LINKS = {
+#     DEFAULT_LANG: (
+#         ("/archive.html", "Archive"),
+#         ("/pages/", "Pages"),
+#         ("/categories/", "Tags"),
+#         ("/rss.xml", "RSS feed"),
+#     ),
+# }
+
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/pages/", "Pages"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'fa fa-home'),
+        ('/archive.html', 'Archives', 'fa fa-folder-open'),
+        ('/categories/index.html', 'Tags', 'fa fa-tags'),
+        ('/rss.xml', 'RSS', 'fa fa-rss'),
+        ('https://getnikola.com', 'About me', 'fa fa-user'),
+        ('https://bsky.app/profile/comptona.bsky.social', 'My Bluesky', 'fab fa-bluesky'),
+        ('https://github.com/handyman5', 'My Github', 'fab fa-github'),
+    )
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
