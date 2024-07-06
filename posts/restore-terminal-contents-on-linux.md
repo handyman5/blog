@@ -1,5 +1,13 @@
-
-# How to Restore Terminal Contents on Linux (Yes, Like iTerm2)
+<!--
+.. title: How to Restore Terminal Contents on Linux (Yes, Like iTerm2)
+.. slug: restore-terminal-contents-on-linux
+.. date: 2023-06-22 12:00:00 UTC-07:00
+.. tags: 
+.. category: howto
+.. link: 
+.. description: 
+.. type: text
+-->
 
 I recently switched to using a Linux desktop from a Mac as my primary work computer. I had grown quite accustomed to iTerm2’s session restoration feature, and I wanted something similar for Linux. Here is how I made it happen.
 

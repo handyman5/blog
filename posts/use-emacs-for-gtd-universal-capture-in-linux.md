@@ -1,3 +1,13 @@
+<!--
+.. title: Use Emacs for GTD Universal Capture in Linux
+.. slug: use-emacs-for-gtd-universal-capture-in-linux
+.. date: 2023-03-16 12:00:00 UTC-07:00
+.. tags: 
+.. category: howto
+.. link: 
+.. description: 
+.. type: text
+-->
 
 ![image](/images/1_Lnnoxld_wCdF0TfxCU_Ufg.webp)
 
