@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150423071705/http://ajcsystems.com/blog/blog/2012/10/02/the-unbearable-lightness-of-user-data/)_
+_(originally from [https://web.archive.org/web/20150423071705/http://ajcsystems.com/blog/blog/2012/10/02/the-unbearable-lightness-of-user-data/])_
 
 When you launch an instance in OpenStack, it has a big empty box called “User Data”:
 

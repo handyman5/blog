@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20220521094735/http://ajcsystems.com/blog/blog/2015/06/07/progresstwitch/)_
+_(originally from [https://web.archive.org/web/20220521094735/http://ajcsystems.com/blog/blog/2015/06/07/progresstwitch/])_
 
 In the immortal words of Samuel L. Jackson, hold on to your butts. I’m going to explain, in painful detail, just exactly what it took to get [ProgressTwitch](https://web.archive.org/web/20220521094735/http://www.twitch.tv/comptona5 "https://web.archive.org/web/20220521094735/http://www.twitch.tv/comptona5") off the ground.
 

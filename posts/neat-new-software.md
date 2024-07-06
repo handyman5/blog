@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/)_
+_(originally from [https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/])_
 
 I’ve been on a bit of a coding tear lately. I’ve written a FUSE filesystem for Amazon Cloud Drive, and also made a lot of improvements to my Toodledo API library, including writing a command-line tool modeled on Tom Limoncelli’s Cycle System from [Time Management for System Administrators](http://www.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833).
 

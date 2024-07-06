@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/)_
+_(originally from [https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/])_
 
 It seemed like a simple enough desire. I wanted a small, functional wiki with (roughly) the following features:
 
@@ -29,7 +29,7 @@ But none of them quite scratched my itch. Thus, I was left with no choice but to
 
 ### Introducing `valet`
 
-[`valet`](https://github.com/handyman5/valet) is a script that turns any directory into a simple wiki, complete with wikitext rendering, editing, and automatically committing changes to version control.
+`valet` is [a script that turns any directory into a simple wiki](https://github.com/handyman5/valet), complete with wikitext rendering, editing, and automatically committing changes to version control.
 
 Here’s a short list of `valet`‘s features:
 

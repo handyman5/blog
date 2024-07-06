@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150423071752/http://ajcsystems.com/blog/blog/2013/09/15/til-installing-windows-7-on-a-non-default-drive/)_
+_(originally from [https://web.archive.org/web/20150423071752/http://ajcsystems.com/blog/blog/2013/09/15/til-installing-windows-7-on-a-non-default-drive/])_
 
 Quick one: today I learned that, when installing Windows 7 on a machine with multiple hard drives, it will refuse to install to a drive which is not set as the default boot device in the BIOS.
 

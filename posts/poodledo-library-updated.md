@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150421212536/http://ajcsystems.com/blog/blog/2012/10/06/poodledo-library-updated/)_
+_(originally from [https://web.archive.org/web/20150421212536/http://ajcsystems.com/blog/blog/2012/10/06/poodledo-library-updated/])_
 
 I spent some time the past few days updating and improving the Python library I maintain for integrating with [Toodledo](http://www.toodledo.com/). The big new features I’m excited about are automatically tab-completing your folders, goals, etc. when creating a new task (as I can never remember exactly what I called them without checking), and adding multi-line notes. Now I can add a new task, pick out the right project and such right from the command line, and ramble on to add whatever other notes I want to write down right there.
 

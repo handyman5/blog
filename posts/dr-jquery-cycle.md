@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422001009/http://ajcsystems.com/blog/blog/2012/10/08/dr-jquery-cycle-or-how-i-learned-to-stop-using-keynote-and-love-html/)_
+_(originally from [https://web.archive.org/web/20150422001009/http://ajcsystems.com/blog/blog/2012/10/08/dr-jquery-cycle-or-how-i-learned-to-stop-using-keynote-and-love-html/])_
 
 We have a number of fancy dashboards displaying on TVs here at $work, and some of them are implemented with Keynote to get the endless-cycling effect. This is lame because Keynote is very hard to use for this purpose (precise grid positioning, versioned changes, lots of other stuff).
 

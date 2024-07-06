@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/)_
+_(originally from [https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/])_
 
 Also known as, “Things I wish I’d known about on Friday, part 1″. ![:-P](https://web.archive.org/web/20150422203246im_/http://ajcsystems.com/blog/wp-includes/images/smilies/icon_razz.gif)
 

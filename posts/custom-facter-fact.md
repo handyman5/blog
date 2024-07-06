@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/)_
+_(originally from [https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/])_
 
 At $work, we use Puppet to manage some of our servers, and part of that involves [writing custom facts](https://web.archive.org/web/20150422203246/http://projects.puppetlabs.com/projects/1/wiki/Adding_Facts) for Facter, Puppet’s tool for gathering node information. (If you’re not familiar, here’s a [quick description of Facter](https://web.archive.org/web/20150422203246/http://puppetlabs.com/puppet/related-projects/facter/).)
 

@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150421230946/http://ajcsystems.com/blog/blog/2012/10/22/what-do-you-mean-theres-no-podcast-feed/)_
+_(originally from [https://web.archive.org/web/20150421230946/http://ajcsystems.com/blog/blog/2012/10/22/what-do-you-mean-theres-no-podcast-feed/])_
 
 Yahoo runs a little-known service called [Yahoo Pipes](https://web.archive.org/web/20150421230946/http://pipes.yahoo.com/), which lets you take inputs from a wide variety of sources (including, but specifically not limited to, RSS feeds), spindle, fold, and mutilate them, and then get an RSS feed out the other end. This is particularly useful if you have an RSS feed from a source that does some of what you want it to do, but isn’t quite perfect.
 
@@ -69,6 +69,7 @@ To break this down a little bit, each result from the **XPath Fetch Page** compo
 
 Let’s say the **XPath Fetch Page** component returned three items, which looked like so:
 
+``` html
 <div>
     <h1>First Post Title</h1>
     <p>Wonderfully clever post goes here.</p>
@@ -81,6 +82,7 @@ Let’s say the **XPath Fetch Page** component returned three items, which looke
     <h1>Third Post Title</h1>
     <p>At this point we're just phoning it in.</p>
 </div>
+```
 
 For this example, the **Create RSS** component will make three objects. If you specify the _Title_ as `item.div.h1`, then the resulting RSS feed will have three <item>s, each of which will have a `title` child node with the appropriate title text.
 

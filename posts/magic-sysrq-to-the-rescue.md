@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/)_
+_(originally from [https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/])_
 
 I recently had to fix a server which had been knocked off the network due to some bad configuration (very long story). When I logged into the remote graphical console, I was greeted with constant, unremitting spam from the kernel log! I wasn’t able to log in because the screen would clear instantly when I started typing.
 

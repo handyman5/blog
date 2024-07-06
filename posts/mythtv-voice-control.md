@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20161024021737/http://ajcsystems.com/blog/blog/2012/06/11/new-project-mythtv-voice-control/)_
+_(originally from [https://web.archive.org/web/20161024021737/http://ajcsystems.com/blog/blog/2012/06/11/new-project-mythtv-voice-control/])_
 
 From the [README](https://github.com/handyman5/mythtv-vc):
 

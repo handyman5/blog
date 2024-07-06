@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150421220939/http://ajcsystems.com/blog/blog/2013/09/12/sometimes-things-just-work-the-first-time/)_
+_(originally from [https://web.archive.org/web/20150421220939/http://ajcsystems.com/blog/blog/2013/09/12/sometimes-things-just-work-the-first-time/])_
 
 For my wife’s birthday, I got her an [Ouya](https://web.archive.org/web/20150421220939/https://www.ouya.tv/) game console so she could play an old emulated game (for which we own the cartridge, but our console is broken). I also recently ordered a [Chromecast](https://web.archive.org/web/20150421220939/http://www.google.com/intl/en/chrome/devices/chromecast/) since hey, why not, it’s only $35. This required two more HDMI ports than our TV has, so I ordered a [three-way HDMI switcher](https://web.archive.org/web/20150421220939/http://www.amazon.com/gp/product/B00B46XUQU/ref%3Doh_details_o05_s00_i00) to plug everything into.
 

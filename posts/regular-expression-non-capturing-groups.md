@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150422001421/http://ajcsystems.com/blog/blog/2012/10/10/regular-expression-non-capturing-groups-or-whats-mean/)_
+_(originally from [https://web.archive.org/web/20150422001421/http://ajcsystems.com/blog/blog/2012/10/10/regular-expression-non-capturing-groups-or-whats-mean/])_
 
 When I was working recently on changing [poodledo](https://github.com/handyman5/poodledo)‘s parser from using a lexer to using regular expressions, I found myself implementing some crazy logic to try and ignore the results from matched groups whose matches I didn’t actually want (since I was using parentheses for their “pick one of these two alternatives” function instead of their “pull out this specific chunk as a match” function).
 

@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150421220346/http://ajcsystems.com/blog/blog/2006/12/)_
+_(originally from [https://web.archive.org/web/20150421220346/http://ajcsystems.com/blog/blog/2006/12/])_
 
 This will also be a place for me to foment discussions and post funny or interesting things that would not be of general interest to my LiveJournal folk.
 

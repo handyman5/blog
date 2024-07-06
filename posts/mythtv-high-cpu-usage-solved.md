@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20220521093228/http://ajcsystems.com/blog/blog/2013/10/02/mythtv-high-cpu-usage-solved/)_
+_(originally from [https://web.archive.org/web/20220521093228/http://ajcsystems.com/blog/blog/2013/10/02/mythtv-high-cpu-usage-solved/])_
 
 I’ve been dealing with a very strange problem with my [MythTV](https://web.archive.org/web/20220521093228/http://www.mythtv.org/) HTPC for a while now. Occasionally, for no good reason that I could see, both the frontend and backend processes would spike to 100% CPU utilization and hang out there until they were restarted. This caused the fans to spin up, which was annoying.
 
@@ -45,7 +45,12 @@ How To Make It Stick
 
 I’m running [Mythbuntu](https://web.archive.org/web/20220521093228/http://www.mythbuntu.org/), so the underlying system is a Debian derivative using `upstart`. The `mythtv-backend` service isn’t actually written as an upstart job; instead, it uses the configuration file `/etc/init/mythtv-backend.conf`. I added “`--noupnp`” to that file:
 
-\[sourcecode language=”text” light=”true”\] adam@mythtv:~$ diff -ub mythtv-backend.conf{.orig,} — mythtv-backend.conf.orig 2013-10-02 21:58:46.000000000 -0700 +++ mythtv-backend.conf 2013-10-02 21:58:16.000000000 -0700 @@ -27,5 +27,5 @@ script test -f /etc/default/locale &amp;&amp; . /etc/default/locale || true – LANG=$LANG exec /usr/bin/mythbackend –syslog local7 –user mythtv –daemon + LANG=$LANG exec /usr/bin/mythbackend –syslog local7 –user mythtv –daemon –noupnp end script \[/sourcecode\]
+``` shell
+adam@mythtv:~$ diff -ub mythtv-backend.conf{.orig,}
+--— mythtv-backend.conf.orig 2013-10-02 21:58:46.000000000 -0700
++++ mythtv-backend.conf 2013-10-02 21:58:16.000000000 -0700
+@@ -27,5 +27,5 @@ script test -f /etc/default/locale &amp;&amp; . /etc/default/locale || true – LANG=$LANG exec /usr/bin/mythbackend –syslog local7 –user mythtv –daemon + LANG=$LANG exec /usr/bin/mythbackend –syslog local7 –user mythtv –daemon –noupnp end script
+```
 
 and restarted the service, and that seems to have fixed things right up.
 
@@ -53,7 +58,9 @@ and restarted the service, and that seems to have fixed things right up.
 
 Mythbuntu automatically runs the frontend process on session startup, so all I needed to do was change the startup file in `~/.config/autostart/mythtv.desktop`:
 
-\[sourcecode language=”text” light=”true”\] adam@mythtv:~/.config/autostart$ diff -ub mythtv.desktop\* +++ mythtv.desktop.orig 2013-10-02 22:05:16.000000000 -0700 — mythtv.desktop 2013-10-02 22:05:29.000000000 -0700 @@ -2,7 +2,7 @@ Name=MythTV Frontend Comment=A frontend for all content on a mythtv-backend GenericName=MythTV Viewer -Exec=mythfrontend –service +Exec=mythfrontend –service –noupnp Type=Application Encoding=UTF-8 Icon=mythtv \[/sourcecode\]
+``` shell
+adam@mythtv:~/.config/autostart$ diff -ub mythtv.desktop\* +++ mythtv.desktop.orig 2013-10-02 22:05:16.000000000 -0700 — mythtv.desktop 2013-10-02 22:05:29.000000000 -0700 @@ -2,7 +2,7 @@ Name=MythTV Frontend Comment=A frontend for all content on a mythtv-backend GenericName=MythTV Viewer -Exec=mythfrontend –service +Exec=mythfrontend –service –noupnp Type=Application Encoding=UTF-8 Icon=mythtv \[/sourcecode\]
+```
 
 This did the trick on the frontend side.
 

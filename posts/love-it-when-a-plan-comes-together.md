@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from https://web.archive.org/web/20150504012625/http://ajcsystems.com/blog/blog/2012/08/11/i-love-it-when-a-plan-comes-together/)_
+_(originally from [https://web.archive.org/web/20150504012625/http://ajcsystems.com/blog/blog/2012/08/11/i-love-it-when-a-plan-comes-together/])_
 
 I recently purchased a [HDHomeRun Prime](https://web.archive.org/web/20150504012625/http://www.silicondust.com/products/hdhomerun/prime/) to replace my first-gen HDHomeRun, with the intention of using a CableCard to replace my ugly kludge of grabbing video from a cable box via Firewire. TL;DR – it just worked.
 
