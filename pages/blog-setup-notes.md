@@ -26,3 +26,9 @@ Source: [main.yml](../../.github/workflows/main.yml)
 
 I had to use a custom action to do the Nikola build; see [this page](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for how to do so.
 
+Additional references:
+
+* https://getnikola.com/blog/automating-nikola-rebuilds-with-github-actions.html
+
+## Bluesky Comments
+
