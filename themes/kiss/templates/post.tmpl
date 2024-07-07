@@ -2,6 +2,7 @@
 <%namespace name="helper" file="post_helper.tmpl"/>
 <%namespace name="pheader" file="post_header.tmpl"/>
 <%namespace name="comments" file="comments_helper.tmpl"/>
+<%namespace name="thelper" file="theme_post_helper.tmpl"/>
 <%namespace name="math" file="math_helper.tmpl"/>
 <%inherit file="base.tmpl"/>
 
@@ -27,23 +28,7 @@
 </%block>
 
 <%block name="content">
-    %if post.tags:
-    <div class="subtitle tags is-6 is-pulled-right"><i>tags:</i>
-        % for i, tag in enumerate(post.tags):
-            % if tag not in hidden_tags:
-            % if i > 0:
-            |
-            %endif
-            <a class="subtitle is-6" href="${_link('tag', tag)}" style="color: ${theme_color}">#${tag|h}</a>
-            % endif
-        % endfor
-    </div>
-    %endif
-    <h2 class="subtitle is-6 date">${post.formatted_date(date_format)|h}</h2>
-    <h1 class="title"><a href="${post.permalink()}">${post.title()|h}</a></h1>
-    <div class="content">
-        ${post.text()}
-    </div>
+    ${thelper.html_render_post(post)}
     ${math.math_scripts_ifpost(post)}
     ${comments.comment_link_script()}
 </%block>

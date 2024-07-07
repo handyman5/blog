@@ -1,0 +1,23 @@
+<%def name="html_render_post(post)">
+    %if post.tags:
+    <div class="subtitle tags is-6 is-pulled-right"><i>tags:</i>
+        % for i, tag in enumerate(post.tags):
+          % if tag not in hidden_tags:
+            % if i > 0:
+            |
+            %endif
+            <a class="subtitle is-6" href="${_link('tag', tag)}" style="color: ${theme_color}">#${tag|h}</a>
+          % endif
+        % endfor
+    </div>
+    %endif
+    <h2 class="subtitle is-6 date">${post.formatted_date(date_format)|h}</h2>
+    <h1 class="title"><a href="${post.permalink()}">${post.title()|h}</a></h1>
+    <div class="content">
+        %if index_teasers:
+            ${post.text(teaser_only=True)}
+        %else:
+            ${post.text(teaser_only=False)}
+        %endif
+    </div>
+</%def>
