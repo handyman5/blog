@@ -2,8 +2,8 @@
 .. title: Creating an ePub from a list of links
 .. slug: creating-an-epub-from-list-of-links
 .. date: 2017-01-22 12:00:00 UTC-07:00
-.. tags: 
-.. category: howto
+.. tags: howto
+.. category: 
 .. link: 
 .. description: 
 .. type: text

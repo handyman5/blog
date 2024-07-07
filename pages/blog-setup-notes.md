@@ -34,5 +34,9 @@ Additional references:
 
 I have some old blogs which have vanished from the internet (but not from the Internet Archive). I used [this tool](https://www.minifier.org/html-to-markdown) to convert their HTML to Markdown so I could import them here.
 
+## Style References
+
+* [The Cloistered Monkey](https://necromuralist.github.io/) - https://github.com/necromuralist/necromuralist.github.io
+
 ## Bluesky Comments
 

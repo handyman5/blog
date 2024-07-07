@@ -2,14 +2,14 @@
 .. title: The Little Ol’ Wiki From Pasadena
 .. slug: the-little-ol-wiki-from-pasadena
 .. date: 2013-08-22 12:00:00 UTC-07:00
-.. tags: 
-.. category: code
+.. tags: code
+.. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
 
-_(originally from [https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/])_
+_(originally from <https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/>)_
 
 It seemed like a simple enough desire. I wanted a small, functional wiki with (roughly) the following features:
 
@@ -21,9 +21,9 @@ It seemed like a simple enough desire. I wanted a small, functional wiki with (r
 
 I considered several projects, including:
 
-*   [Hatta](https://web.archive.org/web/20150422203816/http://hatta-wiki.org/About): Backed by a Mercurial repo, non-trivial to change
-*   [Giit](https://web.archive.org/web/20150422203816/http://gitit.net/): Written in Haskell. I had neither the time nor the inclination to learn that for this project.
-*   [Gollum](https://web.archive.org/web/20150422203816/https://github.com/github/gollum): Mostly suitable, but written in Ruby (which isn’t my strong suit). Plus I wasn’t super-fond of the way it handled subdirectories and other complex filetypes.
+*   [Hatta](http://hatta-wiki.org/About): Backed by a Mercurial repo, non-trivial to change
+*   [Giit](http://gitit.net/): Written in Haskell. I had neither the time nor the inclination to learn that for this project.
+*   [Gollum](https://github.com/github/gollum): Mostly suitable, but written in Ruby (which isn’t my strong suit). Plus I wasn’t super-fond of the way it handled subdirectories and other complex filetypes.
 
 But none of them quite scratched my itch. Thus, I was left with no choice but to write my own.
 

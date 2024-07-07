@@ -2,14 +2,14 @@
 .. title: New project: MythTV voice control
 .. slug: mythtv-voice-control
 .. date: 2013-08-22 12:00:00 UTC-07:00
-.. tags:
-.. category: mythtv
+.. tags: mythtv
+.. category: 
 .. link:
 .. description:
 .. type: text
 -->
 
-_(originally from [https://web.archive.org/web/20161024021737/http://ajcsystems.com/blog/blog/2012/06/11/new-project-mythtv-voice-control/])_
+_(originally from <https://web.archive.org/web/20161024021737/http://ajcsystems.com/blog/blog/2012/06/11/new-project-mythtv-voice-control/>)_
 
 From the [README](https://github.com/handyman5/mythtv-vc):
 
@@ -27,14 +27,14 @@ My wife and I recently had a baby, so we find ourselves a) watching a lot of TV 
 Background: Sphinx / Pocketsphinx
 ---------------------------------
 
-[CMU Sphinx](https://web.archive.org/web/20161024021737/http://cmusphinx.sourceforge.net/) is an open-source toolkit for speech recognition. The project has several parts, but the one we’re concerned with here is called “Pocketsphinx”. It’s a programmable library that can take a variety of language models and use them to recognize speech patterns from audio data.
+[CMU Sphinx](http://cmusphinx.sourceforge.net/) is an open-source toolkit for speech recognition. The project has several parts, but the one we’re concerned with here is called “Pocketsphinx”. It’s a programmable library that can take a variety of language models and use them to recognize speech patterns from audio data.
 
 Building the listening daemon
 -----------------------------
 
-I started out by following the tutorial [Using PocketSphinx with GStreamer and Python](https://web.archive.org/web/20161024021737/http://cmusphinx.sourceforge.net/wiki/gstreamer) and setting up the demo code it provides. I stripped out the GTK app part of it and replaced it with a `gobject.MainLoop()`, since I didn’t care about having a GUI interface. The pocketsphinx library requires two components, a language model and a dictionary; I used the [lmtool](https://web.archive.org/web/20161024021737/http://www.speech.cs.cmu.edu/tools/lmtool-new.html) web-based utility provided by CMU to generate them for a small text corpus of simple voice commands (e.g. “tivo pause”). After adding some manual tweaks to the dictionary file to account for my personal speech patterns (such as the way I pronounce “pause”), I had a working recognizer.
+I started out by following the tutorial [Using PocketSphinx with GStreamer and Python](http://cmusphinx.sourceforge.net/wiki/gstreamer) and setting up the demo code it provides. I stripped out the GTK app part of it and replaced it with a `gobject.MainLoop()`, since I didn’t care about having a GUI interface. The pocketsphinx library requires two components, a language model and a dictionary; I used the [lmtool](http://www.speech.cs.cmu.edu/tools/lmtool-new.html) web-based utility provided by CMU to generate them for a small text corpus of simple voice commands (e.g. “tivo pause”). After adding some manual tweaks to the dictionary file to account for my personal speech patterns (such as the way I pronounce “pause”), I had a working recognizer.
 
-Next step: controlling the MythTV frontend. This was actually pretty easy, thanks to the [MythTV python bindings](https://web.archive.org/web/20161024021737/http://www.mythtv.org/wiki/Python_bindings#Frontend.28host.2C_port.29). I wired up a quick dispatch-table-ish structure to handle the different voice commands I wanted to use and their implementations in the MythTV API, and I was able to start controlling my MythTV HTPC with voice commands.
+Next step: controlling the MythTV frontend. This was actually pretty easy, thanks to the [MythTV python bindings](http://www.mythtv.org/wiki/Python_bindings#Frontend.28host.2C_port.29). I wired up a quick dispatch-table-ish structure to handle the different voice commands I wanted to use and their implementations in the MythTV API, and I was able to start controlling my MythTV HTPC with voice commands.
 
 Echo cancellation
 -----------------
@@ -59,6 +59,6 @@ There are several other improvements I want to make to this tool:
 *   Tweaking the voice recognition thresholds for loudness differential and fall-off time to better suit this use case (i.e., since commands are short, we should recognize a command almost immediately and stop trying to listen to the output audio stream for an extended period of time)
 *   Adding more commands, such as more playback keys and jumping to different parts of the interface
 *   Adding a more general-purpose audio processing language model. The current model is limited to just the small subset of commands I’ve trained it on, but I’d love to be able to issue searches for particular shows that haven’t been pre-trained (“tivo, play latest episode of ‘suits'”) instead of having to issue voice commands to poke around the on-screen menus and select an item.
-*   Testing on a wider variety of platforms. I run [Mythbuntu](https://web.archive.org/web/20161024021737/http://mythbuntu.org/), so that’s where I’ve tested, but I imagine this could be made to work on non-Debian-family Linuxes.
+*   Testing on a wider variety of platforms. I run [Mythbuntu](http://mythbuntu.org/), so that’s where I’ve tested, but I imagine this could be made to work on non-Debian-family Linuxes.
 *   Using the latest version of pocketsphinx. The latest packaged version I can find is 0.5; 0.7 was released recently, so I’d love to roll in the improvements it has.
 *   Hooking up an IR blaster to let me issue voice commands for other system components, e.g. “TV, power on” or “TV, input 2”

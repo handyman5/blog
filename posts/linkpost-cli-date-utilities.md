@@ -2,8 +2,8 @@
 .. title: Linkpost: Command-line date utilities
 .. slug: linkpost-cli-date-utilities
 .. date: 2021-01-15 12:00:00 UTC-07:00
-.. tags: 
-.. category: linkpost
+.. tags: linkpost
+.. category: 
 .. link: 
 .. description: 
 .. type: text

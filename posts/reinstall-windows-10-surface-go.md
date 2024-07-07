@@ -2,8 +2,8 @@
 .. title: How I reinstalled Windows 10 on a Surface Go
 .. slug: reinstall-windows-10-surface-go
 .. date: 2020-06-03 12:00:00 UTC-07:00
-.. tags: 
-.. category: howto
+.. tags: howto, windows
+.. category: 
 .. link: 
 .. description: 
 .. type: text

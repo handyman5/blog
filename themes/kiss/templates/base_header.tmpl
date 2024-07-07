@@ -40,9 +40,9 @@
 <%def name="html_navigation_links_entries(navigation_links_source)">
     %for url, text, icon in navigation_links_source[lang]:
         % if rel_link(permalink, url) == "#":
-            <a class="level-item" href="${permalink}">${text}<span class="sr-only"> ${messages("(active)", lang)}</span><span><i class="${icon}">qq</i></span></a>
+            <a class="level-item" href="${permalink}">${text}<span class="sr-only"> ${messages("(active)", lang)}</span><span> <i class="${icon}"></i></span></a>
         %else:
-            <a class="level-item" href="${url}">${text}<span><i class="${icon}"></i></span></a>
+            <a class="level-item" href="${url}">${text}<span> <i class="${icon}"></i></span></a>
         %endif
     %endfor
 </%def>

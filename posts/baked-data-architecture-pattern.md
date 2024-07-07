@@ -2,7 +2,7 @@
 .. title: The “Baked Data” architecture pattern
 .. slug: baked-data-architecture-pattern
 .. date: 2021-01-15 12:00:00 UTC-07:00
-.. tags: 
+.. tags: patterns
 .. category: 
 .. link: 
 .. description: 

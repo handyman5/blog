@@ -2,8 +2,8 @@
 .. title: Linkpost: Command-Line Interface Guidelines
 .. slug: linkpost-command-line-interface-guidelines
 .. date: 2021-01-05 12:00:00 UTC-07:00
-.. tags: 
-.. category: linkpost
+.. tags: linkpost
+.. category: 
 .. link: 
 .. description: 
 .. type: text

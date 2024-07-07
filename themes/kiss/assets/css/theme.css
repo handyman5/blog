@@ -45,7 +45,7 @@ a:hover, strong, table th {
     -webkit-box-direction: normal;
 }
 
-abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -57,6 +57,10 @@ abbr, address, article, aside, audio, b, blockquote, body, body div, caption, ci
 
 h1, h2, h3, h4, h5, h6, h1.title {
     text-align: left;
+    font-weight: : 700;
+    line-height: 1.1;
+    font-size: 200%;
+    font-family: Garamond, serif;
 }
 
 td, td img {
@@ -1172,7 +1176,7 @@ a.box:active {
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-    color: #b52323;
+    color: #6aa84f;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -5586,7 +5590,7 @@ code, html {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -5772,4 +5776,50 @@ div.subtitle.tags {
 
 .nav {
     border-bottom: solid;
+}
+
+article {
+    border-bottom: 1px solid slategray;
+}
+
+.list-inline {
+    padding-left: 0;
+    padding-bottom: 2em;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 0.25em;
+  padding: 0.25em 0.4em;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge-secondary {
+  color: #fff;
+  background-color: #999;
+}
+
+.badge-secondary[href]:hover, .badge-secondary[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #807f7f;
+}
+
+#footer p {
+    padding-top: 2em;
 }

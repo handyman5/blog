@@ -2,8 +2,8 @@
 .. title: Automating a daily journal with Joplin
 .. slug: automating-a-daily-journal-with-joplin
 .. date: 2019-11-30 12:00:00 UTC-07:00
-.. tags: 
-.. category: personal knowledge management
+.. tags: personal knowledge management
+.. category: 
 .. link: 
 .. description: 
 .. type: text

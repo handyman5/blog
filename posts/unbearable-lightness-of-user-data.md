@@ -2,14 +2,14 @@
 .. title: The Unbearable Lightness of User-Data
 .. slug: unbearable-lightness-of-user-data
 .. date: 2012-10-02 12:00:00 UTC-07:00
-.. tags: 
-.. category: openstack
+.. tags: openstack, til
+.. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
 
-_(originally from [https://web.archive.org/web/20150423071705/http://ajcsystems.com/blog/blog/2012/10/02/the-unbearable-lightness-of-user-data/])_
+_(originally from <https://web.archive.org/web/20150423071705/http://ajcsystems.com/blog/blog/2012/10/02/the-unbearable-lightness-of-user-data/>)_
 
 When you launch an instance in OpenStack, it has a big empty box called “User Data”:
 
@@ -19,7 +19,7 @@ I never knew what that box was for until today.
 
 ### How it’s provided
 
-If an image is configured to use [cloud-init](https://web.archive.org/web/20150423071705/https://help.ubuntu.com/community/CloudInit), when it starts up it will `curl` a special path:
+If an image is configured to use [cloud-init](https://help.ubuntu.com/community/CloudInit), when it starts up it will `curl` a special path:
 
 ``` shell
 $ curl http://169.254.169.254/2009-04-04/user-data/

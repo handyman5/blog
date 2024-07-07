@@ -2,8 +2,8 @@
 .. title: How to get a count of Github PRs, by author
 .. slug: count-github-prs-by-author
 .. date: 2023-02-08 12:00:00 UTC-07:00
-.. tags:
-.. category: howto
+.. tags: howto
+.. category: 
 .. link:
 .. description:
 .. type: text

@@ -2,8 +2,8 @@
 .. title: Creating an EPUB from a Wordpress blog
 .. slug: creating-an-epub-from-a-wordpress-blog
 .. date: 2017-11-26 12:00:00 UTC-07:00
-.. tags: 
-.. category: code
+.. tags: code
+.. category: 
 .. link: 
 .. description: 
 .. type: text

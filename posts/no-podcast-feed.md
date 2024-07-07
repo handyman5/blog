@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-_(originally from [https://web.archive.org/web/20150421230946/http://ajcsystems.com/blog/blog/2012/10/22/what-do-you-mean-theres-no-podcast-feed/])_
+_(originally from <https://web.archive.org/web/20150421230946/http://ajcsystems.com/blog/blog/2012/10/22/what-do-you-mean-theres-no-podcast-feed/>)_
 
 Yahoo runs a little-known service called [Yahoo Pipes](https://web.archive.org/web/20150421230946/http://pipes.yahoo.com/), which lets you take inputs from a wide variety of sources (including, but specifically not limited to, RSS feeds), spindle, fold, and mutilate them, and then get an RSS feed out the other end. This is particularly useful if you have an RSS feed from a source that does some of what you want it to do, but isn’t quite perfect.
 
