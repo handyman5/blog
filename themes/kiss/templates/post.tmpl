@@ -28,13 +28,13 @@
 
 <%block name="content">
     %if post.tags:
-    <div class="subtitle tags is-6 is-pulled-right">
+    <div class="subtitle tags is-6 is-pulled-right"><i>tags:</i>
         % for i, tag in enumerate(post.tags):
             % if tag not in hidden_tags:
             % if i > 0:
             |
             %endif
-            <a class="subtitle is-6" href="${_link('tag', tag)}">#${tag|h}</a>
+            <a class="subtitle is-6" href="${_link('tag', tag)}" style="color: ${theme_color}">#${tag|h}</a>
             % endif
         % endfor
     </div>

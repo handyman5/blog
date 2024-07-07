@@ -155,9 +155,9 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'fa fa-folder-open'),
         ('/categories/index.html', 'Tags', 'fa fa-tags'),
         ('/rss.xml', 'RSS', 'fa fa-rss'),
-        ('https://linkedin.com/in/comptona', 'My LinkedIn', 'fa fa-linkedin-in'),
-        ('https://bsky.app/profile/comptona.bsky.social', 'My Bluesky', 'fab fa-bluesky'),
-        ('https://github.com/handyman5', 'My Github', 'fab fa-github'),
+        ('https://github.com/handyman5', 'Github', 'fab fa-github'),
+        ('https://linkedin.com/in/comptona', 'Linkedin', 'fa-brands fa-linkedin'),
+        ('https://bsky.app/profile/comptona.bsky.social', 'Bluesky', 'fab fa-bluesky'),
     )
 }
 
@@ -1253,19 +1253,19 @@ FEED_TEASERS = False
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-SEARCH_FORM = """
-<!-- Google custom search -->
-<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-<div class="form-group">
-<input type="text" name="q" class="form-control" placeholder="Search">
-</div>
-<button type="submit" class="btn btn-primary">
-	<span class="glyphicon glyphicon-search"></span>
-</button>
-<input type="hidden" name="sitesearch" value="%s">
-</form>
-<!-- End of custom search -->
-""" % SITE_URL
+# SEARCH_FORM = """
+# <!-- Google custom search -->
+# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+# <div class="form-group">
+# <input type="text" name="q" class="form-control" placeholder="Search">
+# </div>
+# <button type="submit" class="btn btn-primary">
+# 	<span class="glyphicon glyphicon-search"></span>
+# </button>
+# <input type="hidden" name="sitesearch" value="%s">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)

@@ -9,8 +9,6 @@
 .. type: text
 -->
 
-# The “Baked Data” architecture pattern
-
 I learned about this recently from this blog post, and it seems like a really robust tool to have in my tool belt:
 
 <!-- TEASER_END -->

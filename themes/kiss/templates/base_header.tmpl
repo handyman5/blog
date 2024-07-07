@@ -2,7 +2,7 @@
 <%namespace name="base" file="base_helper.tmpl" import="*"/>
 
 <%def name="html_header()">
-    <nav id="nav-main" class="nav">
+    <nav id="nav-main" class="nav" style="border-color: ${theme_color};">
       <div id="nav-name" class="nav-left">
         ${html_site_title()}
       </div>
@@ -22,7 +22,7 @@
 </%def>
 
 <%def name="html_site_title()">
-<a id="nav-anchor" class="nav-item" href="${_link("root", None, lang)}" title="${blog_title|h}" rel="home">
+<a id="nav-anchor" class="nav-item" style="font-variant: small-caps;" href="${_link("root", None, lang)}" title="${blog_title|h}" rel="home">
     <h1 id="nav-heading" class="title is-4">
         <span id="blog-title">${blog_title|h}</span>
     </h1>
@@ -40,9 +40,9 @@
 <%def name="html_navigation_links_entries(navigation_links_source)">
     %for url, text, icon in navigation_links_source[lang]:
         % if rel_link(permalink, url) == "#":
-            <a class="level-item" href="${permalink}">${text}<span class="sr-only"> ${messages("(active)", lang)}</span><span><i class="{{ icon }}"></i></span></a>
+            <a class="level-item" href="${permalink}">${text}<span class="sr-only"> ${messages("(active)", lang)}</span><span><i class="${icon}">qq</i></span></a>
         %else:
-            <a class="level-item" href="${url}">${text}<span><i class="{{ icon }}"></i></span></a>
+            <a class="level-item" href="${url}">${text}<span><i class="${icon}"></i></span></a>
         %endif
     %endfor
 </%def>

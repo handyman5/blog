@@ -2,8 +2,8 @@
 .. title: How to Restore Terminal Contents on Linux (Yes, Like iTerm2)
 .. slug: restore-terminal-contents-on-linux
 .. date: 2023-06-22 12:00:00 UTC-07:00
-.. tags: 
-.. category: howto
+.. tags: linux, howto
+.. category: 
 .. link: 
 .. description: 
 .. type: text
@@ -40,12 +40,14 @@ First, I set my terminal emulator’s startup command to:
 
 This command lists the open tmux sessions, and either reattaches to an existing tmux session (if there are any that are detached) or starts a brand new one.
 
-Then, I wrote this script and saved it as~/bin/tmux-restoring.sh:
+Then, I wrote this script and saved it as ~/bin/tmux-restoring.sh:
 
+``` shell
     #!/bin/sh
-    
+
     restoring=$(tmux ls | grep -v attached | wc -l)
     [ $restoring -gt 0 ] && echo "restoring"
+```
 
 It counts the number of tmux sessions that are detached and prints the word “restoring” if there’s more than zero of them. This lets me know that there’s saved sessions available after a restart if the terminal emulator does not automatically reopen all of the windows or tabs.
 
