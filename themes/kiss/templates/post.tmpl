@@ -29,6 +29,12 @@
 
 <%block name="content">
     ${thelper.html_render_post(post)}
+    %if site_has_comments and enable_comments and not post.meta('nocomments'):
+        <section class="comments">
+        <h2>${messages("Comments")}</h2>
+        ${comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)}
+        </section>
+    %endif
     ${math.math_scripts_ifpost(post)}
     ${comments.comment_link_script()}
 </%block>
