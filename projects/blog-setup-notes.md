@@ -41,7 +41,12 @@ I have some old blogs which have vanished from the internet (but not from the In
 ## Technical References
 
 * <https://github.com/snorremd/snorreio/tree/main>
-
+* <https://jrvcomputing.wordpress.com/2023/03/29/setting-up-my-personal-website-using-nikola/>
+* <https://randomgeekery.org/post/2020/01/building-a-starter-blog-with-nikola/>
+* <https://necromuralist.github.io/posts/converting-nikola-from-a-blog-to-a-site/>
+* <https://www.ctrl.blog/entry/nikola-sections.html>
+* <https://adriaanrol.com/posts/2020/building-a-site-using-nikola/>
+* <https://chriswarrick.com/blog/2014/10/13/revamping-my-projects-page-with-nikola/>
 
 ## Bluesky Comments
 
