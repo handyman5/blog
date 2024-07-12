@@ -153,6 +153,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/', 'Home', 'fa fa-home'),
         ('/tags', 'Tags', 'fa fa-tags'),
+        ('/projects', 'Projects', 'fa fa-project-diagram'),
         ('/archive.html', 'Archives', 'fa fa-folder-open'),
         ('/rss.xml', 'RSS', 'fa fa-rss'),
         ('https://github.com/handyman5', 'Github', 'fab fa-github'),
@@ -259,11 +260,11 @@ POSTS = (
     ("posts/*.org", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
-    ("pages/*.org", "pages", "page.tmpl"),
+    ("projects/*.md", "projects", "page.tmpl"),
+    ("projects/*.rst", "projects", "page.tmpl"),
+    ("projects/*.txt", "projects", "page.tmpl"),
+    ("projects/*.html", "projects", "page.tmpl"),
+    ("projects/*.org", "projects", "page.tmpl"),
 )
 
 
@@ -1437,3 +1438,6 @@ GLOBAL_CONTEXT = {
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+# per https://plugins.getnikola.com/v8/projectpages/
+PROJECT_PATH = 'projects'

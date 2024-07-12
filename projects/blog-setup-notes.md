@@ -15,8 +15,8 @@ This page details the things I had to do to set up this blog.
 
 References:
 
-* [https://getnikola.com/handbook.html]
-* [https://getnikola.com/getting-started.html]
+* <https://getnikola.com/handbook.html>
+* <https://getnikola.com/getting-started.html>
 
 ## Automated Build
 
@@ -28,7 +28,7 @@ I had to use a custom action to do the Nikola build; see [this page](https://doc
 
 Additional references:
 
-* https://getnikola.com/blog/automating-nikola-rebuilds-with-github-actions.html
+* <https://getnikola.com/blog/automating-nikola-rebuilds-with-github-actions.html>
 
 ## Backfilling old posts
 
@@ -36,7 +36,18 @@ I have some old blogs which have vanished from the internet (but not from the In
 
 ## Style References
 
-* [The Cloistered Monkey](https://necromuralist.github.io/) - https://github.com/necromuralist/necromuralist.github.io
+* [The Cloistered Monkey](https://necromuralist.github.io/) - <https://github.com/necromuralist/necromuralist.github.io>
+
+## Technical References
+
+* <https://github.com/snorremd/snorreio/tree/main>
+
 
 ## Bluesky Comments
 
+Still in progress. Prior art:
+
+* <https://graysky.app/blog/2024-02-05-adding-blog-comments>
+* <https://graysky.app/blog/2023-10-17-getting-started-atproto>
+* <https://snorre.io/blog/2023-08-19-atproto-bluesky-comment-system/>
+* <https://bsky.app/profile/did:plc:sq6aa2wa32tiiqrbub64vcja/post/3kkobhar5qk2e>
