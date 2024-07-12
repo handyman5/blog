@@ -1,6 +1,6 @@
 # handyman5's blog
 
-Live at [https://handyman5.github.io/blog/](https://handyman5.github.io/blog/).
+Live at <https://handyman5.github.io/>
 
 This is the source for my personal website and blog. It's using [Nikola](https://getnikola.com/). Feel free to inspect it and see how the sausage is made.
 
