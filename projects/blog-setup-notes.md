@@ -2,6 +2,8 @@
 .. title: Blog Setup Notes
 .. slug: blog-setup-notes
 .. date: 2024-07-05 16:30:22 UTC-07:00
+.. devstatus: 4e
+.. status: featured
 .. tags: 
 .. category: 
 .. link: 

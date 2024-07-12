@@ -153,6 +153,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/', 'Home', 'fa fa-home'),
         ('/tags', 'Tags', 'fa fa-tags'),
+        ('/projects/now', 'Now', 'fa fa-clock'),
         ('/projects', 'Projects', 'fa fa-project-diagram'),
         ('/archive.html', 'Archives', 'fa fa-folder-open'),
         ('/rss.xml', 'RSS', 'fa fa-rss'),
