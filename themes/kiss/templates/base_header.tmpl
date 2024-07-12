@@ -4,8 +4,14 @@
 <%def name="html_header()">
     <nav id="nav-main" class="nav" style="border-color: ${theme_color};">
       <div id="nav-name" class="nav-left">
+      %if logo_url:
+        <a href="${abs_link(_link("root", None, lang))}">
+          <img style="width:3em;" src="${logo_url}" alt="${blog_title|h}" id="logo">
+        </a>
+      %endif
         ${html_site_title()}
       </div>
+      <div class="nav-middle" style="flex-grow: 1;"/>
       <div class="nav-right">
         <nav id="nav-items" class="nav-item level is-mobile">
             ${html_translation_header()}
