@@ -46,7 +46,7 @@ This is the directory structure:
 
 ## Deployment
 
-Github Pages
+The site is hosted at Github Pages. See [.github/workflows/main.yaml] for the deployment workflow. It is set up to run with every commit automatically.
 
 ## Commands
 
